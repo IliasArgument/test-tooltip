@@ -1,0 +1,103 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container-menu {
+  position: relative;
+  margin: 50px auto;
+  z-index: 4;
+  font-family: cursive;
+}
+.menu {
+  min-height: 150px;
+  z-index: 22;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: -4px 5px 12px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.tooltip-h1 {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.menu .content {
+  position: relative;
+  z-index: -1;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+.content {
+  margin: 0 auto;
+}
+
+.triangle {
+  position: absolute;
+  display: inline-block;
+  transform: scaleX(2.5);
+  color: #ffffff;
+  top: -15.3px;
+  left: -25px;
+  text-shadow: -3px 5px 12px 2px rgba(0, 0, 0, 0.5);
+  font-size: 52px;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+.content-active {
+  max-width: 200px;
+  padding-top: 20px;
+  font-size: 1.5rem;
+  padding-top: 35px;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: rgb(21, 21, 255);
+}
+.link:hover {
+  color: rgb(145, 145, 240);
+}
+
+.content-title {
+  font-size: 1.3rem;
+  line-height: 35px;
+  color: rgba(43, 42, 42, 0.788);
+}
+.MuiButton-label {
+  font-size: 1.3rem;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container-menu {
+    position: relative;
+    margin: 50px auto;
+    z-index: 4;
+    font-family: cursive;
+  }
+  .menu {
+    min-height: 150px;
+    z-index: 22;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: -4px 5px 12px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .tooltip-h1 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 3rem;
+  }
+}
