@@ -22,10 +22,10 @@ const Collection = () => {
           state={false}
         />
         <Card
-          per={"5%"}
-          resId={"768uyi8755"}
-          canisterId={"6576uy67"}
-          state={true}
+           per={"5%"}
+           canisterId={"6576uy67"}
+           recId={"768uyi8755"}
+           state={true}
         />
       </div>
     </div>
